@@ -63,7 +63,7 @@ YourController = (myModals) ->
 And here is an example of modal itself
 
 ```coffeescript
-YourModalCtrl = (parameters, myModals) ->
+YourModalCtrl = (parameters) ->
   vm = @
   vm.data = parameters
 
